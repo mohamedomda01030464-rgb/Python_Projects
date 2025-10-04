@@ -4,11 +4,12 @@ email = input("*************enter your email : ")
 print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
 password = input("*************enter your password : ")
 print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
-if email == "mohamedomda@gmail.com" and password == "mamaaw01030464@@":
+if email == "1234@gmail.com" and password == "1234":
     print("                                   welcome                                   ")
-elif email == "mohamedomda@gmail.com" and password != "mamaaw01030464@@":
+elif email == "1234@gmail.com" and password != "1234":
     print("                                   password is invalid                                   ")
-elif email != "mohamedomda@gmail.com" and password == "mamaaw01030464@@":
+elif email != "1234@gmail.com" and password == "1234":
     print("                                   email is invalid                                   ")
 else :
+
     print("                                   email and password is invalid                                   ")
